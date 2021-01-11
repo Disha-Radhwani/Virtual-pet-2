@@ -5,7 +5,7 @@ class Food {
     this.image=loadImage('Images/Milk.png');
     }
   
-   updateFoodStock(foodStock){
+   updatefoodStock(foodStock){
     this.foodStock=foodStock;
    }
   
@@ -13,13 +13,13 @@ class Food {
      this.lastFed=lastFed;
    }
   
-   deductFood(){
+   deductfood(){
      if(this.foodStock>0){
       this.foodStock=this.foodStock-1;
      }
     }
   
-    getFoodStock(){
+    getfoodStock(){
       return this.foodStock;
     }
   
